@@ -1,0 +1,139 @@
+.blog_section {
+    background-color: #f4f4f9;
+    padding: 60px 20px;
+}
+
+.blog_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog_post {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_image {
+    width: 100%;
+    height: auto;
+}
+
+.blog_content {
+    padding: 20px;
+}
+
+.blog_heading {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin: 0 0 10px;
+}
+
+.blog_meta {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.blog_meta .blog_date, .blog_meta .blog_author {
+    margin-right: 10px;
+}
+
+.blog_text {
+    font-size: 1.1em;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+
+.blog_cards_section {
+    background-color: #f4f4f9;
+    padding: 60px 20px;
+}
+
+.blog_cards_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog_card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+}
+
+.blog_card:hover {
+    transform: translateY(-5px); /* Add a subtle hover effect */
+}
+
+.blog_card_image {
+    width: 100%;
+    height: auto;
+}
+
+.blog_card_content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.blog_card_heading {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin: 0 0 10px;
+}
+
+.blog_card_meta {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.blog_card_meta .blog_card_date, .blog_card_meta .blog_card_author {
+    display: block;
+}
+
+.blog_card_text {
+    font-size: 1em;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.blog_card_button {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.blog_card_button:hover {
+    background-color: #e67e22;
+}
